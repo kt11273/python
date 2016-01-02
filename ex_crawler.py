@@ -1,7 +1,7 @@
 '''
 #File Name:	ex_crawler.py
 #File Disc:	how to crawler one web address
-#Other:		try & except
+#Other:		title only
 #Date:		2013/01/xx
 '''
 import urllib2
