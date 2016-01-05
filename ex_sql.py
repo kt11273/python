@@ -28,7 +28,7 @@ else:
 	title = title.decode('Big5')
 
 	#execute mysql language
-	db = MySQLdb.connect(host='localhost', user='root', passwd='', db='', port=3306, charset='utf8')
+	db = MySQLdb.connect(host='', user='', passwd='', db='', port='', charset='')
 	cur = db.cursor()	
 	cmd = "insert into article (artID, title) values (%s, %s)"	#sql command
 	cur.execute(cmd, (article_ID, title))
